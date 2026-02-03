@@ -2,10 +2,10 @@ name = "todo-new-cloudflare"
 compatibility_date = "2024-11-01"
 pages_build_output_dir = ".vercel/output/static"
 
+# Энэ хэсэгт compatibility_flags-ийг зүгээр л жагсаалт байдлаар бичнэ
+compatibility_flags = ["nodejs_compat", "nextjs_pages"]
+
 [[d1_databases]]
 binding = "DB"
 database_name = "my-todo-db"
 database_id = "887ab764-1761-446c-9654-1ae96791fc0b"
-
-[compatibility_flags]
-compatibility_flags = [ "nodejs_compat", "nextjs_pages" ]
